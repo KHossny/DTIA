@@ -4,10 +4,10 @@
 
 ### From Source
 Download and unzip the package. 
-
+Open anaconda prompt PowerShell.
 ```
-cd your\\path\\to\\dtia
-python -m pip3 install .
+cd "your\\path\\to\\dtia"
+python -m pip install .
 ```
 
 ### Using PIP
