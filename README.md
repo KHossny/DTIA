@@ -6,7 +6,7 @@
 Download and unzip the package. 
 
 ```
-cd dtia
+cd your\\path\\to\\dtia
 python -m pip3 install .
 ```
 
