@@ -66,8 +66,8 @@ class DecisionTreeInsightAnalyser:
 
         joblibs_path = Model_Metrics_Out_Path
         csvs_path = Model_Details_Out_Path
-        self.Model_Metrics_Out_Path = joblibs_path or f".#dtia#/{ts}/joblibs"
-        self.Model_Details_Out_Path = csvs_path or f".#dtia#/{ts}/csvs"
+        self.Model_Metrics_Out_Path = joblibs_path or f".#dtia#/{ts}/joblibs/"
+        self.Model_Details_Out_Path = csvs_path or f".#dtia#/{ts}/csvs/"
 
         from pathlib import Path
         joblibsPath = Path(self.Model_Metrics_Out_Path)
