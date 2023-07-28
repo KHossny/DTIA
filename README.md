@@ -15,7 +15,12 @@ python -m pip install .
 pip3 install git+https://github.com/KHossny/DTIA
 ```
 
-## Quick Example
+## iris Example
+```
+python iris_example.py
+```
+
+## Quick Generic Example
 ```
 import logging
 logging.basicConfig(level=logging.INFO)
