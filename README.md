@@ -26,10 +26,10 @@ from dtia import DecisionTreeInsightAnalyser
 
 X, y = load_iris(return_X_y=True)
 dtia_clf = DecisionTreeInsightAnalyser(                 
-    Model_Metrics_Out_Path="output\\joblibs\\",
-    Model_Details_Out_Path="output\\csvs\\",
-    Imp_Nodes_Path_file=f".\\imp_nodes.csv",
-    N_ID_Feature_Threshold_Path_file=f".\\n_id_feat_thresh.csv")
+    Model_Metrics_Out_Path="output/joblibs/",
+    Model_Details_Out_Path="output/csvs/",
+    Imp_Nodes_Path_file=f"./imp_nodes.csv",
+    N_ID_Feature_Threshold_Path_file=f"./n_id_feat_thresh.csv")
 
 dtia_clf.fit(X, y)
 ```
