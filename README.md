@@ -3,8 +3,8 @@
 ## Installation
 
 ### From Source
-Download and unzip the package. 
-Open anaconda prompt PowerShell.
+Download and unzip the package. <br />
+Open anaconda prompt PowerShell. <br />
 ```
 cd "your\\path\\to\\dtia"
 python -m pip install .
