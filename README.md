@@ -72,6 +72,33 @@ dtia_clf = DecisionTreeInsightAnalyser(
 dtia_clf.fit(x, y)
 ```
 
+A more generic example is demonstrated below using pandas in reading the csv so you will have to import pandas first. The operating code will be as follows. 
+
+```
+from dtia import DecisionTreeInsightAnalyser
+import pandas as pd
+Data_1 = pd.read_csv('csv\\path\\file.csv', usecols = ['col_name_1', 'col_name_2'])
+Data_2 = pd.read_csv('csv\\path\\file.csv', usecols = ['Labels_col_Name'])
+x = Data_1.values
+y = Data_2.values
+
+dtia_clf = DecisionTreeInsightAnalyser(
+    test_percent=0.2,
+    min_s_leaf_inc=1,
+    min_s_leaf=20,
+    max_depth_inc=1,
+    max_depth=10,
+    number_of_folds=10,
+    metrics_diff=0.01,
+    avg_tst_metrics=0.90,
+    use_time_stamped_folders=True,
+    Model_Metrics_Out_Path=path\\to\\the\\place\\where\\you\\want\\the\\file\\to\\be\\saved\\,
+    Model_Details_Out_Path=path\\to\\the\\place\\where\\you\\want\\the\\file\\to\\be\\saved\\,
+    Imp_Nodes_Path_file="path\\to\\the\\place\\where\\you\\want\\the\\file\\to\\be\\saved\\imp_nodes.csv",
+    N_ID_Feature_Threshold_Path_file="path\\to\\the\\place\\where\\you\\want\\the\\file\\to\\be\\saved\\n_id_feat_thresh.csv")
+
+dtia_clf.fit(x, y)
+```
 
 Specific iris example with default location for output saving.
 ```
