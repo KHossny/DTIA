@@ -47,10 +47,13 @@ load the labels in a variable called 'y' <br />
 |N_ID_Feature_Threshold_Path_file:  |Path where the file including node ID, feature number, and feature threshold for all selected models is saved.|
 <br />
 The following code imports the 'iris' dataset and develops decision tree models using different hyperparameters. The minimum number of samples per leaf ranges from one to 20 with the step of one. The maximum depth of the tree ranges between two and ten with a step of one. Each model was trained and tested over ten folds. The selection criteria for the models to be analyzed were to have an average difference between training and test classification metrics of 0.01, and the average test metrics should be higher than 0.9. Finally, it used the same path where you are in the Anaconda prompt PowerShell to create the results folder. The results folder is named '.#dtia#'. In '.#dtia#' there is a folder named by the time stamp. This folder includes two folders. The 'csvs' and 'joblibs' folders contain the csv files describing the details of each model that passed the selection criteria and the joblib files of all the generated models, respectively.
+
 ```
 from sklearn.datasets import load_iris
 from dtia import DecisionTreeInsightAnalyser
+
 x, y = load_iris(return_X_y=True)
+
 dtia_clf = DecisionTreeInsightAnalyser(
     test_percent=0.2,
     min_s_leaf_inc=1,
@@ -65,6 +68,7 @@ dtia_clf = DecisionTreeInsightAnalyser(
     Model_Details_Out_Path=None,
     Imp_Nodes_Path_file=f"./imp_nodes.csv",
     N_ID_Feature_Threshold_Path_file=f"./n_id_feat_thresh.csv")
+
 dtia_clf.fit(x, y)
 ```
 
