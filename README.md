@@ -27,9 +27,9 @@ Make a new directory.
 ```
 cd "your\\path\\to\\the\\file\\to\\be\\run\\in\\the\\new\\directory"
 ```
-Make a new python file with the following content.
-load the input features in a variable called x
-load the labels in a variable called y
+Make a new python file with the following content. <br />
+load the input features in a variable called 'x' <br />
+load the labels in a variable called 'y' <br />
 test_percent: percentage of the data taken as test for the generated decision tree models.
 min_s_leaf_inc: increment in minimum number of samples per leaf specified in the generated decision tree models.
 min_s_leaf: maximum number of minimum samples per leaf in the generated decision tree models.
