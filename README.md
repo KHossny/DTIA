@@ -69,11 +69,11 @@ dtia_clf = DecisionTreeInsightAnalyser(
     N_ID_Feature_Threshold_Path_file=f"./n_id_feat_thresh.csv")
 
 dtia_clf.fit(x, y)
+```
 
 
 
-
-
+```
 import logging
 logging.basicConfig(level=logging.INFO)
 
