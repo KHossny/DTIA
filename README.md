@@ -32,6 +32,7 @@ load the input features in a variable called 'x' <br />
 load the labels in a variable called 'y' <br />
 <br />
 |Variable Name                      |Description                                                                                                   |
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------|
 |test_percent:                      |Percentage of the data taken as a test for the generated decision tree models.                                |
 |min_s_leaf_inc:                    |Increment in the minimum number of samples per leaf specified in the generated decision tree models.          |
 |min_s_leaf:                        |Maximum number of minimum samples per leaf in the generated decision tree models.                             |
