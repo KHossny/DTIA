@@ -43,7 +43,7 @@ Model_Details_Out_Path: path where the files containing details of each selected
 Imp_Nodes_Path_file: path where the file containing important nodes in all of the selected models is saved.
 N_ID_Feature_Threshold_Path_file: path where the file including node ID, feature number, and feature threshold for all selected models is saved. 
 
-In summary, the following code imports the 'iris' dataset and develops decision tree models 
+The following code imports the 'iris' dataset and develops decision tree models using different hyperparameters. The minimum number of samples per leaf ranges from one to 20 with the step of one. The maximum depth of the tree ranges between two and ten with a step of one. Each model was trained and tested over ten folds. The selection criteria for the models to be analyzed were to have average difference between training and test classification metrics of 0.01 and the average test metrics should be higher than 0.9. Finally, it used the same path where you are in the Anaconda prompt PowerShell to create the results folder. The results folder is named '.#dtia#'. In '.#dtia#' there is a folder named by the time stamp. This folder includes two folders. The 'csvs' and 'joblibs' folders contain the csv files describing the details of each model that passed the selection criteria and the joblib files of all the generated models, respectively.
 ```
 from sklearn.datasets import load_iris
 from dtia import DecisionTreeInsightAnalyser
