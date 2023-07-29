@@ -50,8 +50,6 @@ The following code imports the 'iris' dataset and develops decision tree models 
 ```
 from sklearn.datasets import load_iris
 from dtia import DecisionTreeInsightAnalyser
-
-
 x, y = load_iris(return_X_y=True)
 dtia_clf = DecisionTreeInsightAnalyser(
     test_percent=0.2,
@@ -67,12 +65,11 @@ dtia_clf = DecisionTreeInsightAnalyser(
     Model_Details_Out_Path=None,
     Imp_Nodes_Path_file=f"./imp_nodes.csv",
     N_ID_Feature_Threshold_Path_file=f"./n_id_feat_thresh.csv")
-
 dtia_clf.fit(x, y)
 ```
 
 
-
+Specific iris example with default location for output saving.
 ```
 import logging
 logging.basicConfig(level=logging.INFO)
