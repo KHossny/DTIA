@@ -30,19 +30,19 @@ cd "your\\path\\to\\the\\file\\to\\be\\run\\in\\the\\new\\directory"
 Make a new python file with the following content. <br />
 load the input features in a variable called 'x' <br />
 load the labels in a variable called 'y' <br />
-test_percent: percentage of the data taken as test for the generated decision tree models.
-min_s_leaf_inc: increment in minimum number of samples per leaf specified in the generated decision tree models.
-min_s_leaf: maximum number of minimum samples per leaf in the generated decision tree models.
-max_depth_inc: increment in the maximum depth of the generated decision tree models.
-max_depth: maximum depth of the generated decision tree models.
-number_of_folde: number of folds over which each of the generated decision tree models will be trained and tested.
-metrics_diff: the average difference between the training and test metrics for each developed decision tree model.
-avg_tst_metrics: the average test metrics for each developed decision tree model. 
-Model_Metrics_Out_Path: path where the selected model metrics and performance file will be saved.
-Model_Details_Out_Path: path where the files containing details of each selected model will be saved.
-Imp_Nodes_Path_file: path where the file containing important nodes in all of the selected models is saved.
-N_ID_Feature_Threshold_Path_file: path where the file including node ID, feature number, and feature threshold for all selected models is saved. 
-
+test_percent: percentage of the data taken as test for the generated decision tree models. <br />
+min_s_leaf_inc: increment in minimum number of samples per leaf specified in the generated decision tree models. <br />
+min_s_leaf: maximum number of minimum samples per leaf in the generated decision tree models. <br />
+max_depth_inc: increment in the maximum depth of the generated decision tree models. <br />
+max_depth: maximum depth of the generated decision tree models. <br />
+number_of_folde: number of folds over which each of the generated decision tree models will be trained and tested. <br />
+metrics_diff: the average difference between the training and test metrics for each developed decision tree model. <br />
+avg_tst_metrics: the average test metrics for each developed decision tree model. <br />
+Model_Metrics_Out_Path: path where the selected model metrics and performance file will be saved. <br />
+Model_Details_Out_Path: path where the files containing details of each selected model will be saved. <br />
+Imp_Nodes_Path_file: path where the file containing important nodes in all of the selected models is saved. <br />
+N_ID_Feature_Threshold_Path_file: path where the file including node ID, feature number, and feature threshold for all selected models is saved. <br /> 
+<br />
 The following code imports the 'iris' dataset and develops decision tree models using different hyperparameters. The minimum number of samples per leaf ranges from one to 20 with the step of one. The maximum depth of the tree ranges between two and ten with a step of one. Each model was trained and tested over ten folds. The selection criteria for the models to be analyzed were to have average difference between training and test classification metrics of 0.01 and the average test metrics should be higher than 0.9. Finally, it used the same path where you are in the Anaconda prompt PowerShell to create the results folder. The results folder is named '.#dtia#'. In '.#dtia#' there is a folder named by the time stamp. This folder includes two folders. The 'csvs' and 'joblibs' folders contain the csv files describing the details of each model that passed the selection criteria and the joblib files of all the generated models, respectively.
 ```
 from sklearn.datasets import load_iris
