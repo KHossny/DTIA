@@ -92,8 +92,8 @@ dtia_clf = DecisionTreeInsightAnalyser(
     metrics_diff=0.01,
     avg_tst_metrics=0.90,
     use_time_stamped_folders=True,
-    Model_Metrics_Out_Path=path\\to\\the\\place\\where\\you\\want\\the\\file\\to\\be\\saved\\,
-    Model_Details_Out_Path=path\\to\\the\\place\\where\\you\\want\\the\\file\\to\\be\\saved\\,
+    Model_Metrics_Out_Path='path\\to\\the\\place\\where\\you\\want\\the\\file\\to\\be\\saved\\',
+    Model_Details_Out_Path='path\\to\\the\\place\\where\\you\\want\\the\\file\\to\\be\\saved\\',
     Imp_Nodes_Path_file="path\\to\\the\\place\\where\\you\\want\\the\\file\\to\\be\\saved\\imp_nodes.csv",
     N_ID_Feature_Threshold_Path_file="path\\to\\the\\place\\where\\you\\want\\the\\file\\to\\be\\saved\\n_id_feat_thresh.csv")
 
