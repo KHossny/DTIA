@@ -3,12 +3,21 @@
 ## Installation
 
 ### From Source
+#### Using ZIP File
 Download and unzip the package. <br />
 Open anaconda prompt PowerShell. <br />
 ```powershell
 cd "your\path\to\dtia"
 python -m pip install .
 ```
+##### Using git
+Open anaconda prompt PowerShell. <br />
+```powershell
+git clone ??? your\path\to\dtia
+cd "your\path\to\dtia"
+python -m pip install .
+```
+
 #### iris Example
 ```
 python iris_example.py
