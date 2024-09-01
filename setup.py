@@ -9,11 +9,11 @@ setup(
     author_email='k.hossny@kth.se',
     license='BSD 2-clause',
     packages=['dtia'],
-    install_requires=['scikit-learn',
-                      'numpy',
-                      'tqdm',
-                      'graphviz',
-                      'pandas'],
+    # install_requires=['scikit-learn',
+    #                   'numpy',
+    #                   'tqdm',
+    #                   'graphviz',
+    #                   'pandas'],
 
     classifiers=[
         'Development Status :: 3 - Alpha',
