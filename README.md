@@ -13,9 +13,12 @@ python -m pip install .
 ### Using git
 Open anaconda prompt PowerShell. <br />
 ```powershell
-git clone https://github.com/KHossny/DTIA.git your\path\to\dtia
-cd "your\path\to\dtia"
+conda create -n dtia Python=3.9
+conda activate dtia
+git clone https://github.com/KHossny/DTIA.git dtia
+cd dtia
 python -m pip install .
+python iris_example.py
 ```
 
 ### Using PIP
