@@ -74,7 +74,7 @@ dtia_clf.fit(x, y)
 
 A more generic example is demonstrated below using pandas in reading the csv so you will have to import pandas first. The operating code will be as follows. 
 
-```
+```python
 from dtia import DecisionTreeInsightAnalyser
 import pandas as pd
 Data_1 = pd.read_csv('csv\\path\\file.csv', usecols = ['col_name_1', 'col_name_2'])
@@ -101,7 +101,7 @@ dtia_clf.fit(x, y)
 ```
 
 Specific iris example with default location for output saving.
-```
+```python
 import logging
 logging.basicConfig(level=logging.INFO)
 
