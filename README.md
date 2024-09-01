@@ -18,6 +18,7 @@ conda activate dtia
 conda install pip
 git clone https://github.com/KHossny/DTIA.git dtia
 cd dtia
+python -m pip install -r requirements.txt
 python -m pip install .
 python iris_example.py
 ```
