@@ -16,13 +16,15 @@ python -m pip install -r requirements.txt
 python -m pip install .
 ```
 
-## Examples
-### iris Example
+To run the `iris` example.
+
 ```
 python iris_example.py
 ```
 
-### Quick Generic Example
+## Examples
+
+### Generic Example
 Make a new directory.
 ```powershell
 cd "your\path\to\the\file\to\be\run\in\the\new\directory"
@@ -99,6 +101,8 @@ dtia_clf = DecisionTreeInsightAnalyser(
 
 dtia_clf.fit(x, y)
 ```
+
+### iris Example
 
 Specific iris example with default location for output saving.
 ```python
