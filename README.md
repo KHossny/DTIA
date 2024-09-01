@@ -47,7 +47,7 @@ load the labels in a variable called 'y' <br />
 |min_s_leaf:                        |Maximum number of minimum samples per leaf in the generated decision tree models.                             |
 |max_depth_inc:                     |Increment in the maximum depth of the generated decision tree models.                                         |
 |max_depth:                         |Maximum depth of the generated decision tree models.                                                          |
-|number_of_folde:                   |Number of folds over which each of the generated decision tree models will be trained and tested.             |
+|number_of_folds:                   |Number of folds over which each of the generated decision tree models will be trained and tested.             |
 |metrics_diff:                      |The average difference between the training and test metrics for each developed decision tree model.          |
 |avg_tst_metrics:                   |The average test metrics for each developed decision tree model.                                              |
 |Model_Metrics_Out_Path:            |Path where the selected model metrics and performance file will be saved.                                     |
