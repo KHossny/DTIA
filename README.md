@@ -5,8 +5,8 @@
 ### From Source
 Download and unzip the package. <br />
 Open anaconda prompt PowerShell. <br />
-```
-cd "your\\path\\to\\dtia"
+```powershell
+cd "your\path\to\dtia"
 python -m pip install .
 ```
 #### iris Example
@@ -24,8 +24,8 @@ pip install git+https://github.com/KHossny/DTIA
 
 #### Quick Generic Example
 Make a new directory.
-```
-cd "your\\path\\to\\the\\file\\to\\be\\run\\in\\the\\new\\directory"
+```powershell
+cd "your\path\to\the\file\to\be\run\in\the\new\directory"
 ```
 Make a new Python file with the following content. <br />
 load the input features in a variable called 'x' <br />
