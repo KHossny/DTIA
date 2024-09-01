@@ -47,7 +47,7 @@ load the labels in a variable called 'y' <br />
 |max_depth_inc:                     |Increment in the maximum depth of the generated decision tree models.                                         |
 |max_depth:                         |Maximum depth of the generated decision tree models.                                                          |
 |number_of_folds:                   |Number of folds over which each of the generated decision tree models will be trained and tested.             |
-|metrics_diff:                      |The average difference between the training and test metrics for each developed decision tree model.          |
+|metrics_diff:                      |The difference between the training and test precision for each developed decision tree model.                |
 |avg_tst_metrics:                   |The average test metrics for each developed decision tree model.                                              |
 |Model_Metrics_Out_Path:            |Path where the selected model metrics and performance file will be saved.                                     |
 |Model_Details_Out_Path:            |Path where the files containing details of each selected model will be saved.                                 |
