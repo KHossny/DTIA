@@ -13,14 +13,9 @@ python -m pip install .
 ##### Using git
 Open anaconda prompt PowerShell. <br />
 ```powershell
-git clone ??? your\path\to\dtia
+git clone https://github.com/KHossny/DTIA.git your\path\to\dtia
 cd "your\path\to\dtia"
 python -m pip install .
-```
-
-#### iris Example
-```
-python iris_example.py
 ```
 
 ### Using PIP
@@ -29,9 +24,14 @@ Download and install git tools for Windows using the link (https://git-scm.com/d
 pip install git+https://github.com/KHossny/DTIA
 ```
 
+### iris Example
+```
+python iris_example.py
+```
 
 
-#### Quick Generic Example
+
+### Quick Generic Example
 Make a new directory.
 ```powershell
 cd "your\path\to\the\file\to\be\run\in\the\new\directory"
