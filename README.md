@@ -15,6 +15,7 @@ Open anaconda prompt PowerShell. <br />
 ```powershell
 conda create -n dtia Python=3.9
 conda activate dtia
+conda install pip
 git clone https://github.com/KHossny/DTIA.git dtia
 cd dtia
 python -m pip install .
