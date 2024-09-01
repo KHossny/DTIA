@@ -9,7 +9,7 @@ setup(
     author_email='k.hossny@kth.se',
     license='BSD 2-clause',
     packages=['dtia'],
-    install_requires=['sklearn',
+    install_requires=['scikit-learn',
                       'numpy',
                       'tqdm',
                       'graphviz',
