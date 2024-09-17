@@ -4,6 +4,8 @@ Decision Tree Insights Analytics (DTIA) is a novel deployment method for supervi
 DTIA was developed in response to the growing need for methods that can help uncover hidden patterns and relationships within complex datasets, particularly in cases where abstract information gain calculations provide more detailed insights than numerical attribute importances.
 
 ## Installation
+Download and install Anaconda Prompt Powershell.
+Download and install Git.
 Open anaconda prompt PowerShell. <br />
 
 ```powershell
