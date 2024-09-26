@@ -1,4 +1,7 @@
 # DTIA: Decision Tree Insight Analysis Tool
+Link to the paper published in Machine Learning: Science and Technology:
+https://iopscience.iop.org/article/10.1088/2632-2153/ad7f23
+
 Decision Tree Insights Analytics (DTIA) is a novel deployment method for supervised machine learning that shifts the focus from creating models that differentiate categorical outputs based on input features to discovering associations between inputs and outputs. DTIA offers an alternative perspective to traditional machine learning techniques, such as Random Forest feature importance attributes and K-means clustering for feature ranking.
 
 DTIA was developed in response to the growing need for methods that can help uncover hidden patterns and relationships within complex datasets, particularly in cases where abstract information gain calculations provide more detailed insights than numerical attribute importance.
